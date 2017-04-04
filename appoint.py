@@ -80,6 +80,7 @@ def col_appoint(numpy_):
                 zero_count += 1
                 row_index = i
                 zero_exist = True
+                
         if zero_count == 1:
             numpy_[row_index, j] == -1
             for k in range(len(numpy_)):
