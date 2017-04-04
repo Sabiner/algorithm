@@ -1,5 +1,7 @@
-# -*- coding:utf-8 -*-
-
+# -*- coding:utf-8 -*-‘’
+'''
+一个项目分ABCD四部分，甲乙丙丁完成各部分时长都不相同，四人都要参与且每人只一项任务，如何指派使项目最快完成，5x5/6x6/7x7....
+'''
 import random
 import numpy as np
 
