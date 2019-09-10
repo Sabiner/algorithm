@@ -16,9 +16,13 @@ def declare_linked_list(array):
     :param array:
     :return:
     """
+    if not array:
+        return ListNode(None)
+
     linked = ListNode(array[0])
     linked_tmp = linked
     for i in array[1:]:
         linked_tmp.next = ListNode(i)
         linked_tmp = linked_tmp.next
+
     return linked

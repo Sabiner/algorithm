@@ -15,7 +15,7 @@
 """
 __author__ = 'sabiner'
 
-from declare_linked_list import ListNode, declare_linked_list
+from declare_linked_list import ListNode
 
 
 class Solution(object):
@@ -50,10 +50,3 @@ class Solution(object):
             curr.next = ListNode(tmp)
 
         return dummy.next
-
-
-if __name__ == '__main__':
-    l1 = declare_linked_list([2, 4, 3])
-    l2 = declare_linked_list([5, 6, 4])
-    result = Solution.add_two_numbers(l1, l2)
-    print result
