@@ -41,8 +41,3 @@ class Solution(object):
                 head = head.next
 
         return dummy.next
-
-
-if __name__ == '__main__':
-    head = declare_linked_list([1, 2, 6, 3, 4, 5, 6])
-    Solution.remove_elements(head, 6)
