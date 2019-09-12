@@ -5,9 +5,11 @@ __author__ = 'sabiner'
 from linkedlist.add_two_numbers import Solution as addTwoNumbers
 from linkedlist.declare_linked_list import declare_linked_list
 from linkedlist.remove_elements import Solution as removeElements
+from linkedlist.rotate_right import Solution as rotateRight
 
 __all__ = (
     'declare_linked_list',
     'addTwoNumbers',
     'removeElements',
+    'rotateRight',
 )
