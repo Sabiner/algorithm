@@ -7,9 +7,13 @@ from linkedlist.declare_linked_list import declare_linked_list
 from linkedlist.remove_elements import Solution as removeElements
 from linkedlist.rotate_right import Solution as rotateRight
 
+from hash.my_hash_map import MyHashMap as myHashMap
+
 __all__ = (
     'declare_linked_list',
     'addTwoNumbers',
     'removeElements',
     'rotateRight',
+
+    'myHashMap',
 )
