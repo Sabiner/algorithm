@@ -65,15 +65,3 @@ class MyHashMap(object):
             if head.nex.key == key:
                 head.nex = head.nex.nex
             head = head.nex
-
-
-# Your MyHashMap object will be instantiated and called as such:
-obj = MyHashMap()
-obj.put(1, 1)
-obj.put(2, 2)
-print obj.get(1)
-print obj.get(3)
-obj.put(2, 1)
-print obj.get(2)
-obj.remove(2)
-print obj.get(2)
