@@ -9,6 +9,8 @@ from linkedlist.rotate_right import Solution as rotateRight
 
 from hash.my_hash_map import MyHashMap as myHashMap
 
+from array.pivot_index import Solution as pivotIndex
+
 __all__ = (
     'declare_linked_list',
     'addTwoNumbers',
@@ -16,4 +18,6 @@ __all__ = (
     'rotateRight',
 
     'myHashMap',
+
+    'pivotIndex'
 )
